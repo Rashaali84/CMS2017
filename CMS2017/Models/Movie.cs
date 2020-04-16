@@ -23,7 +23,7 @@ namespace CMS2017.Models
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }
 
-        [Display(Name = "Number in Stock")]
+        [Display(Name = "Number in Stocks")]
         [Range(1, 20)]
         public byte NumberInStock { get; set; }
 
